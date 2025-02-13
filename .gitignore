@@ -1,2 +1,73 @@
-/dist/
+# NetBeans specific
+/nbproject/private/
 /build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/nbproject/project.properties
+/nbproject/project.xml
+/nbproject/build-impl.xml
+/nbproject/genfiles.properties
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+
+# Library directories
+/lib/
+/web/WEB-INF/lib/
+/build/web/WEB-INF/lib/
+
+# IDE files
+*.iml
+*.iws
+*.ipr
+.idea/
+.settings/
+.classpath
+.project
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled files
+*.com
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle
+/build/
+
+# Package Files
+*.zip
+*.tar.gz
+*.rar
